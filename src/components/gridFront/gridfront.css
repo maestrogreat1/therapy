@@ -1,0 +1,144 @@
+.gridCard {
+  padding: 50px 0;
+  background: linear-gradient(rgba(70, 61, 133, 0.7), rgba(8, 0, 58, 0.7)),
+    url("../../../public/images/wrapp.png");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.gridCard .items {
+  padding: 30px;
+  text-align: center;
+}
+
+/* icons editing */
+
+.gridCard .img1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #07568e;
+  padding: 15px;
+  color: #fff;
+  /* position: absolute;
+  top: 2880px;
+  left: 130px; */
+}
+
+.gridCard .img2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #92000a;
+  padding: 15px;
+  color: #fff;
+  /* position: absolute;
+  top: 2800px;
+  right: 100px; */
+}
+
+.gridCard .img3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #222802;
+  padding: 15px;
+  color: #fff;
+  /* position: absolute;
+  top: 3320px;
+  left: 130px; */
+}
+
+.gridCard .img4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #4b5320;
+  padding: 15px;
+  color: #fff;
+}
+.gridCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gridCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+.gridCard .text h3 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 45px;
+}
+.gridCard .rate {
+  margin: 20px 0;
+  color: #ccccae;
+}
+.gridCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.gridCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.gridCard .details .box {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.gridCard .details span {
+  color: #07568e;
+  font-weight: 500;
+  font-size: 14px;
+}
+.gridCard .price {
+  margin: 30px 0;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccccae;
+}
+.gridCard h3 {
+  font-weight: normal;
+  color: #ccccae;
+}
+
+@media screen and (max-width: 768px) {
+  .gridCard .img1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #07568e;
+    padding: 15px;
+    color: #fff;
+    /* position: absolute;
+    top: 3520px;
+    left: 10px; */
+  }
+  .gridCard .img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #92000a;
+    padding: 15px;
+    color: #fff;
+    /* position: absolute;
+    top: 3220px;
+    right: 14px; */
+  }
+  .gridCard .img3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #222802;
+    padding: 15px;
+    color: #fff;
+    /* position: absolute;
+    top: 3799px;
+    left: 250px; */
+  }
+}

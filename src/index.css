@@ -1,4 +1,16 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +22,64 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+@layer utilities{
+  .pushable{
+    background: #92925f;
+    color: #212121;
+    padding: 0;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    font-family: "Inter";
+  }
+  /* .pushable:hover{
+    background-color: #d7d797;
+  color: #212121;
+  } */
+  .front{
+    display: block;
+    padding: 18px 20px;
+    border-radius: 25px;
+    font-size: 1.15rem;
+    background: #ccccae;
+    color: #212121;
+    font-family: "Inter";
+    transform: translateY(-6px)
+  }
+  .front2{
+    display: block;
+    padding: 18px 20px;
+    border-radius: 25px;
+    font-size: 1.15rem;
+    background: #07568e;
+    color: #ccccae;
+    font-family: "Inter";
+    transform: translateY(-6px)
+  }
+  .pushable:active .front{
+    transform: translateY(-2px);
+  }
+  .header{
+    animation: bounce 4s linear infinite;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
 }
