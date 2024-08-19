@@ -14,7 +14,7 @@ const HAbout = () => {
     <>
       <section className="homeAbout">
         <div className="containers">
-          <Title subtitle="FEATURING" title="The Access to Energy Connection" />
+          <Title subtitle="FEATURING" title="The Access to Energy Connections" />
           <div className="gridCard">
             <div className="grid2">
               {gridCards1.map((val) => {
